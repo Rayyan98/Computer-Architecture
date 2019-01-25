@@ -1,0 +1,59 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\CA_Labs\Lab01\design\Exercise
+vD_FF
+V09X<if:HdmG9AJoa7S_:O1
+r1
+!s85 0
+31
+Iac@ccfkOI99ZbQS@>k4L>3
+w1548422873
+8D_FF.v
+FD_FF.v
+L0 1
+Z1 OE;L;6.5c;42
+Z2 o-L mtiAvm -L mtiOvm -L mtiUPF
+n@d_@f@f
+!s100 j=nc3`6X3hT>gjbN1MfJ<3
+vripple_carry_counter
+VMlQOi<<WTWmgfaW<`91Ug1
+r1
+31
+IDZ6dKPXC:^U1nI;_Dl>Z81
+w1548422831
+8ripple_carry_counter.v
+Fripple_carry_counter.v
+L0 1
+R1
+R2
+!s85 0
+!s100 :LmXn=[DVBA?N7@99kj=D3
+vT_FF
+VI0hBGJMVeod?CcSBJmEeo0
+r1
+31
+I:Am2z<l<nLH8o3_Gc]fSd1
+w1548421242
+8T_FF.v
+FT_FF.v
+L0 1
+R1
+R2
+n@t_@f@f
+!s85 0
+!s100 >KgiXm3e=U_iW3FF1]WOX2
+vtb
+VV@Xn<HnSRM[I5c1?BH]3a3
+r1
+31
+IZ^M?h`VQT[^k2bONQa8FK1
+w1548423135
+8tb.v
+Ftb.v
+L0 1
+R1
+R2
+!s85 0
+!s100 QEUjZD?D?=5Fn27l1agaC0

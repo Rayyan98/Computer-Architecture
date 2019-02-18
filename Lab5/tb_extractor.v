@@ -13,9 +13,9 @@ imm_data id1
 
 initial
 begin
-  instruction = {32'hFACADE, 8'b10011111};
-  #300 instruction = {32'hDEAFAF, 8'b10111111};
-  #300 instruction = {32'hFADEAF, 8'b11111111};
+  instruction = {24'hFACADE, 8'b10011111};
+  #300 instruction = {24'hDEAFAF, 8'b10111111};
+  #300 instruction = {24'hFADEAF, 8'b11111111};
 end
 
 endmodule

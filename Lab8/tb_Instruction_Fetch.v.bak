@@ -15,11 +15,8 @@ Instruction_Fetch if1
 
 initial
 begin
-  clk = 1'b0;
-  reset = 1;
+  clk = 0;
   reset = 0;
-  #35 reset = 1;
-  #15 reset = 0;
 end
 
 always

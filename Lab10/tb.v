@@ -20,4 +20,10 @@ end
 always
 #5 clk = ~clk;
 
+initial
+begin
+#35 reset <= 1'b1;
+#1	reset <= 1'b0;
+end
+
 endmodule

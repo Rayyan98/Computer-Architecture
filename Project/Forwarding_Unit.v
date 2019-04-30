@@ -17,7 +17,7 @@ begin
     begin
       mux_to_rs1 = 2'b10;
     end
-  else if ((Regwrite_from_wb == 1'b1) && (rd_from_mem != 5'b0) && (rd_from_mem == rs1_from_ex))
+  else if ((Regwrite_from_wb == 1'b1) && (rd_from_wb != 5'b0) && (rd_from_wb == rs1_from_ex))
     begin
       mux_to_rs1 = 2'b01;
     end
@@ -30,7 +30,7 @@ begin
     begin
       mux_to_rs2 = 2'b10;
     end
-  else if ((Regwrite_from_wb == 1'b1) && (rd_from_mem != 5'b0) && (rd_from_mem == rs2_from_ex))
+  else if ((Regwrite_from_wb == 1'b1) && (rd_from_wb != 5'b0) && (rd_from_wb == rs2_from_ex))
     begin
       mux_to_rs2 = 2'b01;
     end

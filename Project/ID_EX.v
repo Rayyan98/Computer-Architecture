@@ -11,9 +11,9 @@ module ID_EX
   input [1:0]wb_in,
   input [2:0]m_in,
   input [2:0]ex_in,
-  
+  input reset,
   input clk,
-
+  
   output reg [63:0]pc_out,
   output reg [63:0]imm_data_out,
   output reg [63:0]read_data1_out,
@@ -27,8 +27,24 @@ module ID_EX
   output reg  [2:0]ex_out
 );
 
-always @ (posedge clk)
+always @ (posedge clk, posedge reset)
 begin
+  if (reset)
+    begin
+      pc_out = 0;
+  imm_data_out = 0;
+  read_data1_out = 0;
+  read_data2_out = 0;
+  rs1_out = 0;
+  rs2_out = 0;
+  rd_out = 0;
+  funct4_out = 0;
+  wb_out = 0;
+  m_out = 0;
+  ex_out = 0;
+    end
+else
+  begin
   pc_out = pc_in;
   imm_data_out = imm_data_in;
   read_data1_out = read_data1_in;
@@ -40,6 +56,7 @@ begin
   wb_out = wb_in;
   m_out = m_in;
   ex_out = ex_in;
+end
 end
 
 endmodule

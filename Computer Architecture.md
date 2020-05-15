@@ -1,4 +1,4 @@
-# ru03588-CS330
+# Computer Architecture
 
 Verlog Project of pipelined simplified risc v processor along with various labs of the course
 
